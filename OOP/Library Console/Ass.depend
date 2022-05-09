@@ -1,0 +1,222 @@
+# depslib dependency file v1.0
+1606569798 source:c:\users\gemii\desktop\ass\main.cpp
+	<iostream>
+	"Book.h"
+	<cstring>
+
+1606589436 c:\users\gemii\desktop\ass\include\book.h
+	<iostream>
+	<cstring>
+	"User.h"
+
+1606589895 source:c:\users\gemii\desktop\ass\src\book.cpp
+	"Book.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1606569392 c:\users\gemii\desktop\ass\include\user.h
+	<cstring>
+	<iostream>
+
+1606589894 source:c:\users\gemii\desktop\ass\src\user.cpp
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608780079 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\main.cpp
+	<iostream>
+	"Book.h"
+	"BookList.h"
+	"User.h"
+	"UserList.h"
+	<cstring>
+
+1608759437 d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\include\book.h
+	<iostream>
+	<cstring>
+	"User.h"
+
+1606569394 d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\include\user.h
+	<cstring>
+	<iostream>
+
+1608759437 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\src\book.cpp
+	"Book.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1606589896 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\src\user.cpp
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608779989 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\src\booklist.cpp
+	"BookList.h"
+	"Book.h"
+
+1608759437 d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\include\booklist.h
+	<iostream>
+	<cstring>
+	"User.h"
+	"Book.h"
+
+1608779042 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\src\userlist.cpp
+	"UserList.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608764697 d:\fcai-cu\lvl 2\1st semmester\oop\projects\ass1\include\userlist.h
+	<iostream>
+	<cstring>
+	<User.h>
+
+1608929052 source:c:\users\gemii\desktop\ass1\main.cpp
+	<iostream>
+	"Book.h"
+	"BookList.h"
+	"User.h"
+	"UserList.h"
+	<cstring>
+
+1608759437 c:\users\gemii\desktop\ass1\include\book.h
+	<iostream>
+	<cstring>
+	"User.h"
+
+1606569394 c:\users\gemii\desktop\ass1\include\user.h
+	<cstring>
+	<iostream>
+
+1608919784 c:\users\gemii\desktop\ass1\include\booklist.h
+	<iostream>
+	<cstring>
+	"User.h"
+	"Book.h"
+
+1608925370 c:\users\gemii\desktop\ass1\include\userlist.h
+	<iostream>
+	<cstring>
+	<User.h>
+
+1608759437 source:c:\users\gemii\desktop\ass1\src\book.cpp
+	"Book.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608929440 source:c:\users\gemii\desktop\ass1\src\booklist.cpp
+	"BookList.h"
+	"Book.h"
+
+1608929833 source:c:\users\gemii\desktop\ass1\src\user.cpp
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608929600 source:c:\users\gemii\desktop\ass1\src\userlist.cpp
+	"UserList.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608931708 source:c:\users\gemii\desktop\20190021_20190733\main.cpp
+	<iostream>
+	"Book.h"
+	"BookList.h"
+	"User.h"
+	"UserList.h"
+	<cstring>
+
+1608759437 c:\users\gemii\desktop\20190021_20190733\include\book.h
+	<iostream>
+	<cstring>
+	"User.h"
+
+1606569394 c:\users\gemii\desktop\20190021_20190733\include\user.h
+	<cstring>
+	<iostream>
+
+1608919784 c:\users\gemii\desktop\20190021_20190733\include\booklist.h
+	<iostream>
+	<cstring>
+	"User.h"
+	"Book.h"
+
+1608925370 c:\users\gemii\desktop\20190021_20190733\include\userlist.h
+	<iostream>
+	<cstring>
+	<User.h>
+
+1608759437 source:c:\users\gemii\desktop\20190021_20190733\src\book.cpp
+	"Book.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608931588 source:c:\users\gemii\desktop\20190021_20190733\src\booklist.cpp
+	"BookList.h"
+	"Book.h"
+
+1608929833 source:c:\users\gemii\desktop\20190021_20190733\src\user.cpp
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608931416 source:c:\users\gemii\desktop\20190021_20190733\src\userlist.cpp
+	"UserList.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608931710 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\main.cpp
+	<iostream>
+	"Book.h"
+	"BookList.h"
+	"User.h"
+	"UserList.h"
+	<cstring>
+
+1608759438 d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\include\book.h
+	<iostream>
+	<cstring>
+	"User.h"
+
+1606569394 d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\include\user.h
+	<cstring>
+	<iostream>
+
+1608919786 d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\include\booklist.h
+	<iostream>
+	<cstring>
+	"User.h"
+	"Book.h"
+
+1608925372 d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\include\userlist.h
+	<iostream>
+	<cstring>
+	<User.h>
+
+1608759438 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\src\book.cpp
+	"Book.h"
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608931590 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\src\booklist.cpp
+	"BookList.h"
+	"Book.h"
+
+1608929834 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\src\user.cpp
+	"User.h"
+	<iostream>
+	<cstring>
+
+1608931418 source:d:\fcai-cu\lvl 2\1st semmester\oop\projects\20190021_20190733\src\userlist.cpp
+	"UserList.h"
+	"User.h"
+	<iostream>
+	<cstring>
+

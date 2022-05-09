@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1621912276 source:d:\codeblocks\problem6\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
+1621912604 source:d:\fcai-cu\lvl 2\2nd semmester\data structure\ass\a1_20190021_20190341_20190733\a1_p6_20190021_20190341_20190733\main.cpp
+	<iostream>
+	<string>
+	<vector>
+

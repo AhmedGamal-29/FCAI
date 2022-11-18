@@ -1,0 +1,140 @@
+{% load static %}
+<html>
+    
+    <head>
+        <style>
+            body,html{
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            #mk{
+                text-decoration: none;
+                align-items: center;
+            }
+            nav
+{  
+    display: flex;
+    flex-direction: row-reverse;
+    background:white;
+    opacity: 65%;
+}    
+ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;     
+}
+li
+{
+    padding: 20px;
+    padding-right: 20px;
+} 
+.li
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.li:hover{
+        background-color: rgb(245, 187, 27);
+        color: black;
+        text-align: end;
+        background-size: 7cm;
+        font-size: 30px;
+        size: 20px;
+}
+body,html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;                
+}            
+            h1{
+                text-align: center;
+                align-items: center;
+                color:black;
+                size:unset;
+                font-size: 40px;
+                margin-top: 55px;
+
+            }
+            h3{
+                text-align: center;
+                align-items: center;
+                color:black;
+                size:unset;
+                
+                margin-top: 75px;
+
+            }
+            #nn{
+                border-radius: 20px;
+                border: rgb(245, 187, 27); 
+                padding: 15px 30px;
+                background-color: rgb(245, 187, 27);
+                color: black;
+                width:25%;
+            }
+            #nnn{
+                border-radius: 20px;
+                border: cornsilk; 
+                padding: 15px 30px;
+                background-color: cornsilk;
+                color: black;
+                width:25%;
+            }
+            #wyu{
+                text-decoration: none;
+                text-decoration-color: black;
+                font-size: 20px;
+                color: rgb(17, 16, 17);
+                text-align: center;
+                align-items: center;
+                
+            }
+            #wyuu{
+                text-decoration: none;
+                text-decoration-color: black;
+                font-size: 20px;
+                color: rgb(17, 16, 17);
+                text-align: center;
+                align-items: center;
+                
+            }
+            #wyu:hover{
+                color: white;
+            }
+            #q{
+                text-align: center;
+                align-items: center;
+                margin-top: 40px;   
+            }
+        </style>   
+       
+
+    </head> 
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/" class="li"><b>Blog</b></a></li>
+                <li><a href="/" class="li"><b>Services</b></a></li>
+                <li><a href="/" class="li"><b>Fields</b></a></li>
+                <li><a href="/" class="li"><b>Contacts</b></a></li>
+                <li><a href="/" class="li"><b>About us</b></a></li> 
+            </ul>                                                      
+        </nav> 
+        <h1>Welcome to Our Library</h1>
+        <h3>Please choose your request</h3>
+        <form id="q">
+            <button type="submit" value="index.html" id="nn"><a href="student_browsing" id="wyu">Browse Books</a></button><br><br>
+            <button type="submit" value="index.html" id="nn"><a href="search" id="wyu">Search for a Book</a></button><br><br>
+            <button type="submit" value="index.html" id="nn"><a href="borrowing" id="wyu">Borrow a Book</a></button><br><br>
+            <button type="submit" value="index.html" id="nn"><a href="update_student" id="wyu">Updating Student Details </a></button><br><br>
+            <button type="submit" value="index.html" id="nn"><a href="add_book" id="wyu">Add a Book (Admins Only)</a></button><br><br>
+            <button type="submit" value="index.html" id="nn"><a href="admin_browsing_books" id="wyu">Edit a Book (Admins Only)</a></button><br><br>
+            <button type="submit" value="index.html" id="nn"><a href="update_admin" id="wyu">Updating Admin Details </a></button><br><br>
+            <button type="submit" value="index.html" id="nnn"><a  href="{% url 'logout' %}" id="wyuu">Logout</a></button><br><br>
+        </form>
+    </body>      
+</html>

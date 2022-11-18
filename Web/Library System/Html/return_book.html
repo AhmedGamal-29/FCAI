@@ -1,0 +1,146 @@
+<html>
+    <head>
+    <style>
+              nav
+{  
+    display: flex;
+    flex-direction: row-reverse;
+    background:white;
+    opacity: 65%;
+}    
+ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;     
+}
+li
+{
+    padding: 20px;
+    padding-right: 20px;
+} 
+.li
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.li:hover{
+        background-color: rgb(245, 187, 27);
+        color: black;
+        text-align: end;
+        background-size: 7cm;
+        font-size: 30px;
+        size: 20px;
+}
+         body,html {
+                    margin: 0;
+                    padding: 0;
+                    height: 100%;                
+            }           
+        body{
+            background-image: url(photo_2021-06-06_22-28-00.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                height: 700px;
+           }
+
+           #browse{
+                font-size: 30px;
+                text-align: center;
+                text-size-adjust:10px ;
+                align-items: center;
+                border-radius: 20px;
+                width: 25%;
+                padding: 5px;
+            }
+
+            h1{
+                margin-top:65px;
+                margin-bottom: 40px;
+                text-align: center;
+                align-items: center;
+                color: black;
+                size:unset;
+                font-size:40px;
+
+            }
+
+            .browsing {
+                color:rgb(245, 187, 27);
+                background-size:.20 .2;
+                text-decoration: rgb(224, 204, 214);
+                font-size: .4px .50px ;
+                box-sizing: border-box;
+                align-items: center;
+                font-size: x-large;
+                text-align: center;
+            }
+
+            #submit{
+                border-radius: 20px;
+                border: rgb(245, 187, 27); 
+                padding: 15px 30px;
+                background-color: rgb(245, 187, 27);
+                color: black;
+                margin-bottom: 30px;
+            }
+            #submit1{
+                border-radius: 20px;
+                border: cornsilk; 
+                padding: 15px 30px;
+                background-color: cornsilk;
+                color: black;
+                margin-bottom: 30px;
+            }
+            #submit:hover{
+                color: white;
+            }
+            #name{
+                text-decoration: none;
+                color: black;
+            }
+
+</style>
+
+
+
+
+
+    </head>
+
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/" class="li"><b>Blog</b></a></li>
+                <li><a href="/" class="li"><b>Services</b></a></li>
+                <li><a href="/" class="li"><b>Fields</b></a></li>
+                <li><a href="/" class="li"><b>Contacts</b></a></li>
+                <li><a href="/" class="li"><b>About us</b></a></li> 
+            </ul>
+        </nav>           
+        <h1>Returning a book</h1>
+        <form class="browsing">
+            
+
+            <label for="Id">Student(Admin) ID</label><br>
+            <input type="text" id="browse" name="Student Id" ><br><br>
+            <label for="Book Name">Book Name</label><br>
+            <input type="text" id="browse" name="Book Name" ><br><br>
+            <label for="Book ID">Book ID</label><br>
+            <input type="text" id="browse" name="Book ID" ><br><br>
+            <label for="Phone"> Phone</label><br>
+            <input type="text" id="browse" name="Phone" ><br><br>
+            <label for="date"> Date of recipt </label><br>
+            <input type="date" id="browse" name="Date of recipt"><br><br>
+            <button type="submit"  id="submit" > Return a Book</button>
+            <button type="submit"  id="submit1" > <a id="name" href="logged_in">Previous Page</a></button>
+
+</form>
+
+   
+        
+    </body>
+</html>

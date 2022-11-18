@@ -1,0 +1,134 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Library">
+        <title>
+           Homepage
+        </title>
+        <link rel="stylesheet" href="HomePage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>  
+<style>
+nav
+{  
+    display: flex;
+    flex-direction: row-reverse;
+    background:white;
+    opacity: 65%;
+}    
+ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;     
+}
+li
+{
+    padding: 20px;
+    padding-right: 20px;
+} 
+.li
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.li:hover{
+        background-color: rgb(245, 187, 27);
+        color: black;
+        text-align: end;
+        background-size: 7cm;
+        font-size: 30px;
+        size: 20px;
+}           
+body
+{
+    background:url("{%static 'images/books.jpg'%}")
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 700px;          
+}
+body,html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;                
+} 
+h1
+{
+    position: absolute;
+    right: 43%;
+    top: 32%;
+    word-spacing: 10px;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    color: black;
+}
+.heading
+{
+    
+    position: absolute;
+    right: 37%;
+    top: 43%;
+    word-spacing: 15px;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    color: black;                                
+} 
+.button1
+{
+    position: absolute;
+    right: 37%;
+    top: 60%;      
+    margin: 40px;          
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: rgb(245, 187, 27);
+    background-color: rgb(245, 187, 27);
+    color: black;
+}
+.bu
+{
+    text-decoration: none;
+    color: black;
+}
+.button2
+{
+    position: absolute;
+    right: 50%;
+    top: 60%;  
+    margin: 40px;              
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: rgb(207, 203, 203);
+    background-color: rgb(207, 203, 203);
+    color: black;                
+}        
+</style>
+    <body>   
+        <nav>
+            <ul>
+                <li><a href="" class="li"><b>Blog</b></a></li>
+                <li><a href="" class="li"><b>Services</b></a></li>
+                <li><a href="" class="li"><b>Fields</b></a></li>
+                <li><a href="" class="li"><b>Contacts</b></a></li>
+                <li><a href="" class="li"><b>About us</b></a></li> 
+            </ul>                                                      
+        </nav> 
+        <div>
+            <header>    
+                <h1><b>Cairo Library</b></h1>
+                <form method="POST">
+                    {% csrf_token %}
+                <h1 class="heading"><b>Are You Sure You Want To Delete</b></h1>
+                <button type="submit" class="button1">Yes</a></button>
+                <a href="{% url 'admin_browsing_books' %}" class = "button2">NO</a>
+                </form>
+                
+            </header>
+        </div>           
+    </body>
+</html>

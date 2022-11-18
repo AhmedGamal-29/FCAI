@@ -1,0 +1,90 @@
+{% load static %}
+<html>
+    <head>
+    <style>
+        body{
+                
+                background-color: #7ABECC;
+                background-repeat: no-repeat;
+                background-origin: border-box;
+                background-size: cover;
+                background-position: 100%;
+                padding-top: 6px 10px;
+                box-sizing: border-box;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+           }
+
+           
+
+            .h1{
+                text-align: center;
+                align-items: center;
+                color: rgb(238, 234, 237);
+                size:unset;
+                font-size:xx-large;
+
+            }
+
+            .browsing {
+                color: white;
+                background-color: #74CFBF;
+                background-size:.20 .2;
+                text-decoration: rgb(224, 204, 214);
+                font-size: .4px .40px;
+                box-sizing: border-box;
+                align-items: center;
+                font-size: x-large;
+               
+
+
+
+
+            }
+
+            #submit{
+                size: 30px; 
+                font-size: 20;
+                align-items: center;
+                text-align: center;
+                color: rgb(26, 17, 27);
+                background-color: #33CCFF;
+            }
+
+            #submit:hover{
+                color: white;
+            }
+            #name{
+                text-decoration: none;
+                color: black;
+                
+            }
+            
+
+
+</style>
+
+
+
+
+
+    </head>
+
+
+    <body>
+        <h2 class="h1">Adding a book</h2>
+        <form method="POST" class="browsing">
+            {% csrf_token %}
+            <div>
+            {{form.as_p}}    
+            <button type="submit"  id="submit">Confirm</button>
+            <button type="submit"  id="submit"> <a id="name" href="logged_in">Previous Page</a></button>
+
+        </form>
+
+   
+        
+    </body>
+</html>

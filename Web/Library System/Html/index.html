@@ -1,0 +1,138 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Library">
+        <title>
+           Homepage
+        </title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>  
+<style>
+
+    img{
+        height: fit-content;
+        width: fit-content;
+    }
+nav
+{  
+    display: flex;
+    flex-direction: row-reverse;
+    background:white;
+    opacity: 65%;
+}    
+ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;     
+}
+li
+{
+    padding: 20px;
+    padding-right: 20px;
+} 
+.li
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.li:hover{
+        background-color: rgb(245, 187, 27);
+        color: black;
+        text-align: end;
+        background-size: 7cm;
+        font-size: 30px;
+        size: 20px;
+}           
+body
+{
+    background:url("{%static 'images/books.jpg'%}")
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 700px;          
+}
+body,html{
+                margin: 0;
+                padding: 0;
+                height: 98%;
+            }
+h1
+{
+    color: #F5BB1B;
+    position: absolute;
+    right: 43%;
+    top: 32%;
+    word-spacing: 10px;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    
+}
+.heading
+{
+    
+    position: absolute;
+    right: 37%;
+    top: 43%;
+    word-spacing: 15px;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    color: #F5BB1B;                               
+} 
+.button1
+{
+    position: absolute;
+    right: 37%;
+    top: 60%;      
+    margin: 40px;          
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: rgb(245, 187, 27);
+    background-color: rgb(245, 187, 27);
+    color: black;
+}
+.bu
+{
+    text-decoration: none;
+    color: black;
+}
+.button2
+{
+    position: absolute;
+    right: 50%;
+    top: 60%;  
+    margin: 40px;              
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: rgb(207, 203, 203);
+    background-color: rgb(207, 203, 203);
+    color: black;                
+}        
+</style>
+    <body>  
+         
+        <nav>
+            <ul>
+                <li><a href="" class="li"><b>Blog</b></a></li>
+                <li><a href="" class="li"><b>Services</b></a></li>
+                <li><a href="" class="li"><b>Fields</b></a></li>
+                <li><a href="" class="li"><b>Contacts</b></a></li>
+                <li><a href="" class="li"><b>About us</b></a></li> 
+            </ul>                                                      
+        </nav> 
+        <img src="{% static 'images/library2.jpg' %}" alt="">
+        <div>
+            <header>    
+                <h1><b>Cairo Library</b></h1>
+                <h1 class="heading"><b>Welcome to Our Library</b></h1>
+                <button class="button1"><a href="log_in" class="bu">Login</a></button>
+                <button class = "button2"><a href="sign__up" class="bu">Sign Up</button>
+            </header>
+        </div>           
+    </body>
+</html>
